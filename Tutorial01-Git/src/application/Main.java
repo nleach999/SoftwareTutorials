@@ -45,7 +45,7 @@ public class Main extends Application implements TutorialEventListener {
 	private Canvas _mainDrawingArea = new Canvas();
 	
 	private ObservableList<String> _drawOptions = FXCollections.observableArrayList("Mandlebrot", 
-			"Walker");
+			"Sierpinski Gasket", "Walker");
 	
 	private ComboBox<String> _drawingSelection = new ComboBox<String>(_drawOptions);
 	private Button _stopButton, _startButton, _clearButton;
@@ -110,6 +110,9 @@ public class Main extends Application implements TutorialEventListener {
 
 			if (selectedDrawing.compareTo("Mandlebrot") == 0)
 				_runningDrawing = new Mandlebrot();
+
+			 if (selectedDrawing.compareTo("Sierpinski Gasket") == 0)
+					_runningDrawing = new Sierpinski();
 
 			 if (selectedDrawing.compareTo("Walker") == 0)
 					_runningDrawing = new Walker();
