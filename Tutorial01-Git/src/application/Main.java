@@ -34,7 +34,7 @@ public class Main extends Application implements TutorialEventListener {
 
 			setupUI(root);
 
-			primaryStage.setTitle("My Local Tutorial");
+			primaryStage.setTitle("Tutorial");
 			primaryStage.setScene(scene);
 			primaryStage.show();
 		} catch (Exception e) {
