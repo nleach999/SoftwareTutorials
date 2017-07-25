@@ -18,7 +18,7 @@ import javafx.scene.layout.GridPane;
 import javafx.scene.layout.Pane;
 import javafx.scene.layout.StackPane;
 import javafx.scene.paint.Color;
-// Hi, I modified my local copy by adding a comment!
+
 public class Main extends Application implements TutorialEventListener {
 
 	@Override
