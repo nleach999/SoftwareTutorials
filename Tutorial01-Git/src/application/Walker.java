@@ -13,6 +13,7 @@ import javafx.scene.image.WritableImage;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.paint.Color;
 
+// Adding comment to simulate changes by multiple users.
 public class Walker extends TutorialDrawing implements Redrawable {
 
 	private SimpleAnimationTimer _thread = new SimpleAnimationTimer(this);
